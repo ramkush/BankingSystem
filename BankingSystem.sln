@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{25A9D9ED-43EA-49B4-941B-5865D00BFE8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{892BB467-DBA1-477A-91FF-652D340CEEEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{CDD1BAE0-D2A0-4FE4-84B5-869E4EA82EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accolite.Digital.Banking.API", "Accolite.Digital.Banking.API\Accolite.Digital.Banking.API.csproj", "{6192E269-A287-46CC-A9F2-A9FC92AD2E60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accolite.Digital.Banking.API.UnitTest", "Accolite.Digital.Banking.API.UnitTest\Accolite.Digital.Banking.API.UnitTest.csproj", "{61BE3FD6-B32C-4FE4-93BD-560EEAFBF10C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accolite.Digital.Banking.Common", "Accolite.Digital.Banking.Common\Accolite.Digital.Banking.Common.csproj", "{0C02A6CE-BE5A-42AA-A602-AB0150856CCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accolite.Digital.Banking.Common.UnitTest", "Accolite.Digital.Banking.Common.UnitTest\Accolite.Digital.Banking.Common.UnitTest.csproj", "{4BA3B179-A18B-469A-ACCA-CA85475B747E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6192E269-A287-46CC-A9F2-A9FC92AD2E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6192E269-A287-46CC-A9F2-A9FC92AD2E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6192E269-A287-46CC-A9F2-A9FC92AD2E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6192E269-A287-46CC-A9F2-A9FC92AD2E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61BE3FD6-B32C-4FE4-93BD-560EEAFBF10C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61BE3FD6-B32C-4FE4-93BD-560EEAFBF10C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61BE3FD6-B32C-4FE4-93BD-560EEAFBF10C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61BE3FD6-B32C-4FE4-93BD-560EEAFBF10C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C02A6CE-BE5A-42AA-A602-AB0150856CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C02A6CE-BE5A-42AA-A602-AB0150856CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C02A6CE-BE5A-42AA-A602-AB0150856CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C02A6CE-BE5A-42AA-A602-AB0150856CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BA3B179-A18B-469A-ACCA-CA85475B747E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA3B179-A18B-469A-ACCA-CA85475B747E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA3B179-A18B-469A-ACCA-CA85475B747E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA3B179-A18B-469A-ACCA-CA85475B747E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{892BB467-DBA1-477A-91FF-652D340CEEEC} = {25A9D9ED-43EA-49B4-941B-5865D00BFE8F}
+		{CDD1BAE0-D2A0-4FE4-84B5-869E4EA82EBB} = {25A9D9ED-43EA-49B4-941B-5865D00BFE8F}
+		{6192E269-A287-46CC-A9F2-A9FC92AD2E60} = {892BB467-DBA1-477A-91FF-652D340CEEEC}
+		{61BE3FD6-B32C-4FE4-93BD-560EEAFBF10C} = {892BB467-DBA1-477A-91FF-652D340CEEEC}
+		{0C02A6CE-BE5A-42AA-A602-AB0150856CCC} = {CDD1BAE0-D2A0-4FE4-84B5-869E4EA82EBB}
+		{4BA3B179-A18B-469A-ACCA-CA85475B747E} = {CDD1BAE0-D2A0-4FE4-84B5-869E4EA82EBB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CCA4278-0908-4DBF-9936-0994CE0FE09C}
+	EndGlobalSection
+EndGlobal

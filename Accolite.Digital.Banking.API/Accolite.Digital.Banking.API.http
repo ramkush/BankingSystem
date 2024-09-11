@@ -1,0 +1,6 @@
+@Accolite.Digital.Banking.API_HostAddress = http://localhost:5022
+
+GET {{Accolite.Digital.Banking.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
